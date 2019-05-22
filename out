@@ -1,0 +1,29 @@
+[Command: cmd '/c C:\Users\abbabashir\.atom\packages\script\node_modules\.bin\babel --filename C:\Users\abbabashir\.atom\packages\script\node_modules\.bin\babel < C:\Users\abbabashir\Desktop\javascript\Desktop\digital_clock\task.js| node']
+[ { name: 'John', score1: 47, score2: 46 },
+  { name: 'Bob', score1: 23, score2: 24 },
+  { name: 'Nick', score1: 40, score2: 35 },
+  { name: 'Alex', score1: 44, score2: 45 } ]
+John passed final exams successfully
+He has 93 points and he got diploma with degree A
+----------------
+[ { name: 'John', score1: 47, score2: 46, add: 93 },
+  { name: 'Bob', score1: 23, score2: 24 },
+  { name: 'Nick', score1: 40, score2: 35 },
+  { name: 'Alex', score1: 44, score2: 45 } ]
+Bob got47points, has failed and has to try next year
+-----------------
+[ { name: 'John', score1: 47, score2: 46, add: 93 },
+  { name: 'Bob', score1: 23, score2: 24, add: 47 },
+  { name: 'Nick', score1: 40, score2: 35 },
+  { name: 'Alex', score1: 44, score2: 45 } ]
+Nick passed final exams successfully
+He has 75 points and he got diploma with degree C
+----------------
+[ { name: 'John', score1: 47, score2: 46, add: 93 },
+  { name: 'Bob', score1: 23, score2: 24, add: 47 },
+  { name: 'Nick', score1: 40, score2: 35, add: 75 },
+  { name: 'Alex', score1: 44, score2: 45 } ]
+Alex passed final exams successfully
+He has 89 points and he got diploma with degree B
+----------------
+[Finished in 2.801s]

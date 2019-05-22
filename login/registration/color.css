@@ -1,0 +1,112 @@
+/* Keyword values */
+background-color: red;
+background-color: indigo;
+
+/* Hexadecimal value */
+background-color: #bbff00;    /* Fully opaque */
+background-color: #11ffee00;  /* Fully transparent */
+background-color: #11ffeeff;  /* Fully opaque */
+
+/* RGB value */
+background-color: rgb(255, 255, 128);        /* Fully opaque */
+background-color: rgba(117, 190, 218, 0.5);  /* 50% transparent */
+
+/* HSL value */
+background-color: hsl(50, 33%, 25%);         /* Fully opaque */
+background-color: hsla(50, 33%, 25%, 0.75);  /* 75% transparent */
+
+/* Special keyword values */
+background-color: currentcolor;
+background-color: transparent;
+
+/* Global values */
+background-color: inherit;
+background-color: initial;
+background-color: unset;
+
+border-left-color: rgb(170, 50, 220, .6);
+
+.exampleone {
+  background-color: teal;
+  color: white;
+}
+
+.exampletwo {
+  background-color: rgb(153,102,153);
+  color: rgb(255,255,204);
+}
+
+
+
+.examplethree {
+  background-color: #777799;
+  color: #FFFFFF;
+}
+
+/* <color> values */
+border-left-color: red;
+border-left-color: #ffbb00;
+border-left-color: rgb(255, 0, 0);
+border-left-color: hsla(100%, 50%, 25%, 0.75);
+border-left-color: currentColor;
+border-left-color: transparent;
+
+/* Global values */
+border-left-color: inherit;
+border-left-color: initial;
+border-left-color: unset;
+
+/*border top left radius*/
+border-top-left-radius: 50%;
+border: black 10px double;
+background-clip: content-box;
+
+border-top-left-radius: 50%;
+border-top-left-radius: 250px 150px;
+border-top-left-radius: 80px 80px;
+
+/* the corner is a circle */
+/* border-top-left-radius: radius */
+border-top-left-radius: 3px;
+
+/* the corner is an ellipse */
+/* border-top-left-radius: horizontal vertical */
+border-top-left-radius: 0.5em 1em;
+
+border-top-left-radius: inherit;
+
+
+div {
+  border-top-left-radius:40%;
+  border-style: black 3px double;
+  background-color: rgb(250,20,70);
+  background-clip: content-box;
+}
+
+
+/*box shadow*/
+box-shadow: 10px 5px 5px red;
+box-shadow: 60px -16px teal;
+box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+box-shadow: inset 5em 1em gold;
+box-shadow: 3px 3px red, -1em 0 .4em olive;
+
+/* offset-x | offset-y | color */
+box-shadow: 60px -16px teal;
+
+/* offset-x | offset-y | blur-radius | color */
+box-shadow: 10px 5px 5px black;
+
+/* offset-x | offset-y | blur-radius | spread-radius | color */
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+/* inset | offset-x | offset-y | color */
+box-shadow: inset 5em 1em gold;
+
+/* Any number of shadows, separated by commas */
+box-shadow: 3px 3px red, -1em 0 0.4em olive;
+
+/* Global keywords */
+box-shadow: inherit;
+box-shadow: initial;
+box-shadow: unset;

@@ -1,0 +1,69 @@
+#container{
+  width: 550px;
+  height: 520px;
+  background-color: lightgreen;
+  margin: 0 auto;
+  top: 10px;
+  bottom: 10px;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+   rgba(0, 0, 0, 0.19);
+}
+
+.note-list{
+  margin: 35px 130px 25px 130px;
+}
+
+.edit-note{
+  width: 250px;
+}
+
+.body{
+  font-family: sans-serif;
+  background-color: orange;
+}
+
+
+
+form#search-note{
+  margin-top: 8px;
+  margin-bottom: 8px;
+  text-align: center;
+  background-color: lightgrey;
+}
+
+form#search-note input{
+  border-radius: 2px;
+}
+
+form#search-note input[type='text']{
+  padding: 5px 0 5px 2px;
+  width: 300px;
+}
+
+form#add{
+  margin: 25px 55px 65px 25px;
+  padding-top: 60px;
+  text-align: center;
+}
+
+form#add input{
+  border-radius: 2px;
+}
+
+form#add input[type='text']{
+  padding: 5px 0 5px 2px;
+  width: 250px;
+}
+
+form#add input[type='submit']{
+  padding: 5px 0;
+  width: 70px;
+  background: #6B8E23;
+  color: #fff;
+}
+
+form#add input[type='submit']:hover{
+  background: #7c9f34;
+}

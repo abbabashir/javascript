@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="mobile-web-app-capable" content="yes">
+   <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Note Manager</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+  <body class="body">
+      <div id="container">
+    <div class="wrapper">
+      <form id="search-note">
+        <h2>Note Manager</h2>
+        <input type="text" placeholder="Search note...">
+      </form>
+
+    <div class="note-list">
+      <ul id="list">
+        <li>
+          <p>First note</p>
+          <p id="fonts-wrapper">
+            <i class=" fa fa-pencil-square-o"></i> <i class=" fa fa-time"></i>
+          </p>
+          <input class="edit-note" type="text">
+        </li>
+        <li>
+          <p> Second note</p>
+          <p><i class="fa-fa-pencil-square-o"></i> <i class="fa fa-times"></i></p>
+          <input class="edit-note" type="text">
+        </li>
+        <li>
+          <p>Third note</p>
+          <p><i class="fa- fa-pencil-square-o"></i> <i class="fa fa-times"></i></p>
+          <input class="edit-note" type="text">
+        </li>
+      </ul>
+      </div>
+
+    <div id="add-notes">
+      <form id="add">
+        <label for="hide">Hide</label>
+        <input type="checkbox" id="hide">
+        <input type="text" placeholder="Add a note.." id="add-input">
+          <input type="submit" value="Add" id="add-btn">
+      </form>
+    </div>
+  </div>
+</div>
+  </body>
+  <script src="dom.js"></script>
+</html>

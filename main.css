@@ -1,0 +1,128 @@
+/*.wrapper{
+  width: 550px;
+  height: 120px;
+  background-color: lightgrey;
+  margin: 0 auto;
+  top: 10px;
+  bottom: 10px;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+   rgba(0, 0, 0, 0.19);
+}
+
+.note-list{
+  width: 550px;
+  height: 520px;
+  background-color: lightgreen;
+  margin: 0 auto;
+  top: 10px;
+  bottom: 10px;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+   rgba(0, 0, 0, 0.19);
+
+}
+*/
+.body{
+  margin: 0;
+}
+
+.topnav{
+  background-color: gray;
+  text-align: center;
+  overflow:hidden;
+}
+
+.topnav a{
+float: right;
+text-align: center;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.topnav a:hover{
+  background-color: #ddd;
+  text-align: center;
+  color: black;
+}
+
+.topnav a.active{
+  text-align: center;
+  background-color: red;
+  color: white;
+}
+
+.topnav input[type=text]{
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.star{
+  padding: 0px;
+  margin: 0;
+  font-style: oblique;
+  font-family: sans-serif;
+  font-size: 35px;
+  text-align: left;
+  float: left;
+}
+
+#loader{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid blue;
+  border-radius: 50%;
+  border-top: 16px solid red;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin{
+  0%{-webkit-transform: rotate(0deg);}
+  100%{-webkit-ransform: rotate(360deg);}
+}
+
+@keyframes spin{
+  0%{ transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
+
+}
+
+.animate{
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration;
+}
+
+@-webkit-keyframes animatebottom{
+  from {bottom: -100px; opacity: 0}
+  to{bottom: 0; opacity: 1}
+}
+
+@keyframes animatebottom{
+  from {bottom: -100px; opacity: 0}
+  to{bottom: 0; opacity: 1}
+}
+
+#mydiv{
+  display: none;
+  text-align: center;
+}
